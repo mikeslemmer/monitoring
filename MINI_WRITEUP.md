@@ -2,6 +2,10 @@ Usage:
 
 python ./face.py [input file] [output file].mp4
 
+Note:
+
+The code assumes that the opencv git repo (git@github.com:opencv/opencv.git) is checked out at the same level as this repo. This is because it uses xml files found in that other repo.
+
 Thoughts:
 
 * It seems possible detection and/or speed could be improved because you generally know where the face is in the video (at the right edge).
